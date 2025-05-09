@@ -7,6 +7,9 @@ int main()
     cout << "Ingrese su nombre ";
     string nombre;
     cin >> nombre;
-    cout << "Hola " << nombre << endl;
+    cout << "ingrese su apellido ";
+    string apellido;
+    cin >> apellido;
+    cout << "Hola " << nombre << " " <<  apellido << endl;
     return 0;
 }
